@@ -1,0 +1,5 @@
+D:\BibliotecaMusica\BibliotecaMusica\obj\Debug\ResolveAssemblyReference.cache
+D:\BibliotecaMusica\BibliotecaMusica\bin\Debug\BibliotecaMusica.dll
+D:\BibliotecaMusica\BibliotecaMusica\bin\Debug\BibliotecaMusica.pdb
+D:\BibliotecaMusica\BibliotecaMusica\obj\Debug\BibliotecaMusica.dll
+D:\BibliotecaMusica\BibliotecaMusica\obj\Debug\BibliotecaMusica.pdb

@@ -11,6 +11,7 @@ namespace BibliotecaMusica.Conexion
     {
         String stConec="Data Source=10.20.64.5;Initial Catalog=ventaProductos;Port=3307;User ID=LibreriaMusica;Password=-juan20121993";
         //String stConec = "DRIVER={MySQL ODBC 3.51 Driver};SERVER=10.20.64.5;Port=3307;DATABASE=telefonica;UID=telefonica;PWD=macarena";
+        //alo~ funciona?
 
         SqlConnection cnn;
         private static BD bd = null; //new BD();

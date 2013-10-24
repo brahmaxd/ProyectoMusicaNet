@@ -1,6 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="FrDiscoAdmin.aspx.cs" Inherits="FrDiscoAdmin" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="FrArtistaAdmin.aspx.cs" Inherits="FrArtistaAdmin" Title="Página sin título" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="cphEncabezado" Runat="Server">
+    <p>
+        Proyecto Musica</p>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphMenu" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphContenido" Runat="Server">
     <table class="style1">
@@ -13,7 +19,7 @@
                 <asp:Button ID="btDiscoHelp" runat="server" Text="?" />
             </td>
             <td>
-                <asp:Button ID="btLeer" runat="server" Text="Leer" onclick="btLeer_Click" />
+                <asp:Button ID="btLeer" runat="server" Text="Leer" />
             </td>
             <td>
                 <asp:Button ID="btCerrar" runat="server" Text="Cerrar" />
@@ -46,7 +52,7 @@
         <tr>
             <td>
                 <asp:Button ID="btAtras" runat="server" onclick="btAtras_Click" 
-                    Text="&lt;- Atras" />
+                    Text=" Atras" />
             </td>
             <td>
                 &nbsp;</td>

@@ -8,28 +8,47 @@ namespace BibliotecaMusica.Entity
     class Cancion
     {
         private int id;
+        private String nombre;
+        private int idDisco;
 
         public int Id
         {
             get { return id; }
             set { id = value; }
         }
-        private String nombre;
-
+        
         public String Nombre
         {
             get { return nombre; }
             set { nombre = value; }
         }
 
+        public int IdDisco
+        {
+            get { return idDisco; }
+            set { idDisco = value; }
+        }
+
         public Cancion()
         {
-            Id = id;
         }
+
+        public Cancion(int id, String nombre, int idDisco)
+        {
+            Id = id;
+            Nombre = nombre;
+            IdDisco = idDisco;
+        }
+
         public Cancion(int id, String nombre)
         {
             Id = id;
             Nombre = nombre;
+        }
+
+        public Cancion(int id)
+        {
+            Id = id;
         }
     }
 }

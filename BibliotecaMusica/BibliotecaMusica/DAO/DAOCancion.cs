@@ -10,7 +10,7 @@ namespace BibliotecaMusica.DAO
 {
     class DAOCancion
     {
-        
+   //lo que hicimos hoy     
         
             public static DataTable sqlLeerTodas()
             {

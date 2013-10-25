@@ -55,6 +55,7 @@
     <Compile Include="Entity\Cancion.cs" />
     <Compile Include="Entity\Disco.cs" />
     <Compile Include="Entity\Genero.cs" />
+    <Compile Include="Entity\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

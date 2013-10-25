@@ -31,6 +31,7 @@ namespace BibliotecaMusica.Entity
         public Usuario()
         {
             Usuario = "";
+            //esto no se si esta bien :s
 
         }
         public Usuario(String usuario, String clave, int esAdmin)
@@ -40,53 +41,6 @@ namespace BibliotecaMusica.Entity
             EsAdmin = esAdmin;
         }
     }
-}
 
     }
 }
-/*
- * -﻿using System;
--using System.Collections.Generic;
--using System.Linq;
--using System.Text;
--
--namespace BibliotecaMusica.Entity
--{
--    class Usuarios
--    {
--        
--
--        public String Usuario
--        {
--            get { return usuario; }
--            set { usuario = value; }
--        }
--        private String clave;
--
--        public String Clave
--        {
--            get { return clave; }
--            set { clave = value; }
--        }
--        private int esAdmin;
--
--        public int EsAdmin
--        {
--            get { return esAdmin; }
--            set { esAdmin = value; }
--        }
--
--        public Usuarios()
--        {
--            Usuario = "";
--
--        }
--        public Usuarios(String usuario, String clave, int esAdmin)
--        {
--            Usuario = usuario;
--            Clave = clave;
--            EsAdmin = esAdmin;
--        }
--    }
--}
- * */

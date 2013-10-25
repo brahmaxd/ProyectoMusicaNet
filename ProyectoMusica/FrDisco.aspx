@@ -68,17 +68,3 @@
 </table>
 </asp:Content>
 
-<asp:Content ID="Content5" runat="server" contentplaceholderid="cphMenu">
-
-                        <asp:TreeView ID="tvMenu" runat="server">
-                            <Nodes>
-                                <asp:TreeNode Text="Principal" Value="Principal">
-                                    <asp:TreeNode Text="Administrador" Value="Administrador"></asp:TreeNode>
-                                    <asp:TreeNode Text="Cliente" Value="Cliente"></asp:TreeNode>
-                                </asp:TreeNode>
-                            </Nodes>
-                        </asp:TreeView>
-                    
-</asp:Content>
-
-

@@ -15,8 +15,4 @@ public partial class FrDiscoAdmin : System.Web.UI.Page
     {
         Response.Redirect("FrDisco.aspx");
     }
-    protected void btLeer_Click(object sender, EventArgs e)
-    {
-
-    }
 }

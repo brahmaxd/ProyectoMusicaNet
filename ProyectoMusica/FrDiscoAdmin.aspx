@@ -13,7 +13,7 @@
                 <asp:Button ID="btDiscoHelp" runat="server" Text="?" />
             </td>
             <td>
-                <asp:Button ID="btLeer" runat="server" Text="Leer" onclick="btLeer_Click" />
+                <asp:Button ID="btLeer" runat="server" Text="Leer" />
             </td>
             <td>
                 <asp:Button ID="btCerrar" runat="server" Text="Cerrar" />

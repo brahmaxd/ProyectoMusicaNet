@@ -5,22 +5,23 @@ using System.Text;
 
 namespace BibliotecaMusica.Entity
 {
-    class Usuario
+    class Usuarios
     {
         private String usuario;
+        private String clave;
+        private int esAdmin;
+
         public String Usuario
         {
             get { return usuario; }
             set { usuario = value; }
-        }
-        private String clave;
+        }        
 
         public String Clave
         {
             get { return clave; }
             set { clave = value; }
-        }
-        private int esAdmin;
+        }        
 
         public int EsAdmin
         {
@@ -28,19 +29,20 @@ namespace BibliotecaMusica.Entity
             set { esAdmin = value; }
         }
 
-        public Usuario()
+        public Usuarios()
         {
-            Usuario = "";
-            //esto no se si esta bien :s
-
         }
-        public Usuario(String usuario, String clave, int esAdmin)
+
+        public Usuarios(String usuario, String clave, int esAdmin)
         {
             Usuario = usuario;
             Clave = clave;
             EsAdmin = esAdmin;
         }
-    }
 
+        public Usuarios(String usuario)
+        {
+            Usuario = usuario;
+        }
     }
 }

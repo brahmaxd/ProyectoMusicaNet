@@ -10,8 +10,8 @@ namespace BibliotecaMusica.DAO
 {
     class DAOCancion
     {
-        class DAODisco
-        {
+        
+        
             public static DataTable sqlLeerTodas()
             {
                 DataTable dt = new DataTable();
@@ -57,4 +57,4 @@ namespace BibliotecaMusica.DAO
         }
 
     }
-}
+

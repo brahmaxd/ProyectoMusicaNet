@@ -3,3 +3,8 @@ D:\BibliotecaMusica\BibliotecaMusica\bin\Release\BibliotecaMusica.pdb
 D:\BibliotecaMusica\BibliotecaMusica\obj\Release\ResolveAssemblyReference.cache
 D:\BibliotecaMusica\BibliotecaMusica\obj\Release\BibliotecaMusica.dll
 D:\BibliotecaMusica\BibliotecaMusica\obj\Release\BibliotecaMusica.pdb
+C:\Users\Abraham\Documents\GitHub\ProyectoMusicaNet\BibliotecaMusica\BibliotecaMusica\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Abraham\Documents\GitHub\ProyectoMusicaNet\BibliotecaMusica\BibliotecaMusica\obj\Release\BibliotecaMusica.dll
+C:\Users\Abraham\Documents\GitHub\ProyectoMusicaNet\BibliotecaMusica\BibliotecaMusica\bin\Release\BibliotecaMusica.dll
+C:\Users\Abraham\Documents\GitHub\ProyectoMusicaNet\BibliotecaMusica\BibliotecaMusica\bin\Release\BibliotecaMusica.pdb
+C:\Users\Abraham\Documents\GitHub\ProyectoMusicaNet\BibliotecaMusica\BibliotecaMusica\obj\Release\BibliotecaMusica.pdb

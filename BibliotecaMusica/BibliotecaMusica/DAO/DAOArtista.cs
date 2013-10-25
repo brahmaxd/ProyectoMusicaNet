@@ -16,8 +16,8 @@ namespace BibliotecaMusica.DAO
             BD bd = Conexion.BD.getInstance();
            
             String sql = "select * from artista where 1=1";
-            if (id.Trim() != "") sql += String.Format("and id like '%{0}'", id);
-            if (nombre.Trim != "") sql += String.Format("and nombre like '%{0}'", nombre);
+           // if (id.Trim() != "") sql += String.Format("and id like '%{0}'", id);
+            //if (nombre.Trim != "") sql += String.Format("and nombre like '%{0}'", nombre);
             dt = bd.sqlSelect(20, sql);
             return dt;
         }

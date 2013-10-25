@@ -51,6 +51,7 @@
     <Compile Include="DAO\DAOArtista.cs" />
     <Compile Include="DAO\DAOCancion.cs" />
     <Compile Include="DAO\DAODisco.cs" />
+    <Compile Include="DAO\DaoGenero.cs" />
     <Compile Include="Entity\Artista.cs" />
     <Compile Include="Entity\Cancion.cs" />
     <Compile Include="Entity\Disco.cs" />
